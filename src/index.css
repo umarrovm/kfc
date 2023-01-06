@@ -1,13 +1,141 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#tol {
+  height: 135.39px;
+  width: 1349;
+  margin-bottom: 5px;
+}
+
+#navs {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+
+  /* padding: 15 15 15; */
+  /* margin-left: 22px;
+  margin-right: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+#navs2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#logc {
+  width: 90px;
+  height: 90px;
+  /* padding: 1.5%; */
+}
+
+.hl {
+  width: 145px;
+  height: 33.8px;
+  /* border-radius: 50%; */
+}
+#btn1 {
+  background-color: #e4002b;
+  width: 150px;
+  height: 33px;
+  align-items: center;
+  /* margin-left: 30px; */
+}
+#btn2 {
+  display: flex;
+}
+
+#color {
+  background-color: #ffffff;
+}
+#tel1 {
+  height: 18px;
+}
+#tnum {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#homep {
+  width: 100%;
+  /* padding: 100vh; */
+  background-image: url("https://wpsovet.ru/wp-content/uploads/f/5/0/f50eef1f05c13f9611b02123e0a443c4.jpeg");
+}
+
+/* ================ */
+
+#mid {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 400px;
+}
+
+#footer {
+  display: flex;
+  height: 100px;
+  width: auto;
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+}
+#tel {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#tel-img {
+  display: flex;
+  height: 30px;
+  border-radius: 50%;
+}
+#info {
+  display: flex;
+  gap: 40px;
+}
+#card {
+  width: 220px;
+  display: flex;
+  height: 40px;
+  margin-right: 70px;
+}
+#kanal {
+  height: 10px;
+  display: flex;
+}
+#blog2 {
+  background-color: red;
+  display: flex;
+}
+#footer-red {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+#footer2 {
+  padding: 5px;
+  color: white;
+  display: flex;
+}
+#footer3 {
+  display: flex;
+  margin-left: 620px;
+  padding-bottom: 2px;
+}
+#footer5 {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
